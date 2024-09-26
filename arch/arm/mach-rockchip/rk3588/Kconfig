@@ -13,6 +13,13 @@ config TARGET_NANOPI6
 	help
 	  Support for FriendlyElec boards based on RK3588.
 
+config TARGET_NANOPC_T6
+	bool "FriendlyElec NanoPC-T6"
+	select BOARD_LATE_INIT
+	select VENDOR_FRIENDLYELEC
+	help
+	  Support for FriendlyElec NanoPC-T6
+
 config SYS_SOC
 	default "rockchip"
 
@@ -21,5 +28,6 @@ config SYS_MALLOC_F_LEN
 
 source board/rockchip/evb_rk3588/Kconfig
 source board/rockchip/nanopi6/Kconfig
+source board/rockchip/nanopc-t6/Kconfig
 
 endif

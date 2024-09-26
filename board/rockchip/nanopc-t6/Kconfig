@@ -1,0 +1,15 @@
+if TARGET_NANOPC_T6
+
+config SYS_BOARD
+	default "nanopc-t6"
+
+config SYS_VENDOR
+	default "rockchip"
+
+config SYS_CONFIG_NAME
+	default "nanopc-t6"
+
+config BOARD_SPECIFIC_OPTIONS
+	def_bool y
+
+endif

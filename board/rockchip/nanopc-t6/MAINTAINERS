@@ -1,0 +1,6 @@
+NanoPC T6
+M:      <support@friendlyarm.com>
+S:      Maintained
+F:      board/rockchip/nanopc-t6/
+F:      include/configs/nanopc-t6.h
+F:      configs/nanopc-t6_defconfig
